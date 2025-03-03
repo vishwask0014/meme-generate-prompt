@@ -14,13 +14,7 @@ export default function SrcPrompt() {
                     messages: [{ role: 'user', content: "give a 2-liner joke" }],
                     max_tokens: 50,
                 },
-                // {
-                //     headers: {
-                //         'Content-type': "application/json",
-                //         Authorization: `Bearer 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`
-                //     },
-
-                // }
+                
             );
             setResponse(apiResponse?.data);
         }
